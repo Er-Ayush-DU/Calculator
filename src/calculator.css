@@ -1,0 +1,110 @@
+*{
+  margin: 0; padding: 0;
+
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Calculator{
+ background-color: rgba(230, 223, 223, 0.53);
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccccccf1;
+  border-radius: 4px;
+  box-shadow: 10px 10px 10px #ccc;
+  
+
+  margin: 50px;
+
+}
+
+#display{
+  background-color:#acc2d9a9 ;
+  width: 300px;
+  height: 60px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border-color: cyan;
+  border-style: solid;
+  border: 10px;
+
+  box-shadow: 0 0 5px #acc2d9;
+}
+
+input[type="text"]{
+  padding: 10px;
+  font-weight: 550;
+  color: white;
+  font-size: xx-large ;
+}
+
+#first-div button ,
+#second-div button ,
+#third-div button,
+#fourth-div button,
+#fifth-div button,
+#sixth-div button{
+
+  width: 60px;
+  height: 60px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-left: 10px;
+
+  border-radius: 5px;
+
+  box-shadow: 0 0 30px #ccc;
+  
+}
+
+
+#first-div :nth-child(1){
+  background-color: rgba(255, 0, 0, 0.81);
+
+  border-color: #ccc;
+  border-style: solid;
+  
+}
+
+
+
+#second-div :nth-child(1) ,
+#third-div :nth-child(1),
+#fourth-div :nth-child(1),
+#fifth-div :nth-child(1),
+#fifth-div :nth-child(2){
+
+  background-color:#6D6968 ;
+
+  border-color: #ccc;
+  border-style: solid;
+  border: 10px;
+}
+
+
+#first-div :nth-child(2),
+#first-div :nth-child(3), 
+#second-div :nth-child(2),
+#second-div :nth-child(3),
+#third-div :nth-child(2),
+#third-div :nth-child(3),
+#fourth-div :nth-child(2),
+#fourth-div :nth-child(3),
+#fifth-div :nth-child(3),
+#sixth-div :nth-child(1),
+#sixth-div :nth-child(2){
+
+
+  border-color: #ccc;
+  border-style: solid;
+  border: 10px;
+
+}
